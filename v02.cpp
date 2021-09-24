@@ -14,17 +14,6 @@ struct duomenys {
     float Gal = 0;
 };
 
-int main()
-{
-    int pazymiu_sk;
-    char temp;
-    std::vector <duomenys> Eil;
-    read_from_file(Eil, &pazymiu_sk);
-    print_student(Eil, pazymiu_sk);
-    system("pause");
-    return 0;
-}
-
 float count_median(std::vector <int> pazymiai) //funkcija su kuria yra suskaiciuojama mediana
 {
     int counter = 0;
@@ -106,4 +95,15 @@ void read_from_file(std::vector<duomenys>& Eil, int* pazymiu_sk) //funkcija su k
         }
     }
     else { std::cout << "-\n"; }
+}
+
+int main()
+{
+    int pazymiu_sk;
+    char temp;
+    std::vector <duomenys> Eil;
+    read_from_file(Eil, &pazymiu_sk);
+    print_student(Eil, pazymiu_sk);
+    system("pause");
+    return 0;
 }
