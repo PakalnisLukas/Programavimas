@@ -67,7 +67,7 @@ void input_by_hand(duomenys Eil[], int i) //funkcija, kuri duos zmogui suvesti p
         cout << "Iveskite studento egzamino pazymi:";
         cin >> Eil[i].egz;
     } while (Eil[i].egz < 0 || Eil[i].egz > 10);
-    cout << "Iveskite studento pazymius (kai baigsite, iveskite -1 (minus vienas)):";
+    cout << "Iveskite studento pazymius (kai baigsite, iveskite -1):";
     int counter = 0;
     do {
         cin >> Eil[i].paz[counter];
