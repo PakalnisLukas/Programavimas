@@ -1,8 +1,10 @@
 Užduotis: Išmatuoti patobulintos v0.4 realizacijos veikimo spartą. Ir yra matuojami tik šie programoje atliekami žingsniai:
 duomenų nuskaitymą iš failų;\
 studentų rūšiąvimą į dvi grupes/kategorijas;\
+\
 Testavimo sistemos parametrai:\
 Cpu: AMD Ryzen 5 4500U 2.38 GHz, 8GB RAM ,512GB SSD \
+\
 Atlikti testavimai\
 Studentų skaičius 1000\
 Failo su 1000 studentu nuskaitymas uztruko: 0.0311712s\
