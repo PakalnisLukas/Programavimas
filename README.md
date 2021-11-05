@@ -1,6 +1,6 @@
 Testavimo sistemos parametrai:\
 Cpu: AMD Ryzen 5 4500U 2.38 GHz, 8GB RAM ,512GB SSD \
-Atlikti testavimai: \ 
+Atlikti testavimai\ 
 Studentų skaičius 1000\ 
 Failo su 1000 studentu nuskaitymas uztruko: 0.0311712s\
 Failo rusiavimas su 1000 studentais i dvi grupes uztruko : 35.494s\
